@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>Hello World</title>
-    <url>/2025/10/01/hello-world/</url>
-    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
-Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
-More info: Writing
-Run server$ hexo server
-More info: Server
-Generate static files$ hexo generate
-More info: Generating
-Deploy to remote sites$ hexo deploy
-More info: Deployment
-]]></content>
-  </entry>
-  <entry>
     <title>后端学习技术路线</title>
     <url>/2025/10/03/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[后端技术路线学习推荐学习与效仿宁猫k：java后端 28届，B站up四非大一就找了小厂实习，后续过了滴滴支付的实习。黑马：Javase（跳过gui），javaweb(前端，刚好也是大二上这学期课程)
@@ -29,171 +15,17 @@ More info: Deployment
       </tags>
   </entry>
   <entry>
-    <title></title>
-    <url>/2025/10/03/%E5%89%8D%E7%AB%AF%E4%B8%89%E5%A4%A7%E4%BB%B6/</url>
-    <content><![CDATA[javaweb三件套：html ，css，JavaScript（最基础）
-html&lt;html&gt;开始  &lt;head&gt;/给浏览器看的        &lt;title&gt;带带小出生&lt;/title&gt;  &lt;/head&gt;  &lt;body&gt;给用户看的      &lt;h1&gt;欢迎各位小出生&lt;/h1&gt;      &lt;img src=&quot;img/1.jpg&quot;  &lt;/body&gt;&lt;/html&gt;结束多一个/在前面
-不区分大小写，单双引号
-快捷键生成结构：按！回车
-&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;  &lt;meta charset=&quot;UTF-8&quot;&gt;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;  &lt;title&gt;Document&lt;/title&gt;&lt;/head&gt;&lt;body&gt;  &lt;/body&gt;&lt;/html&gt;
-
-通过插件可以在服务器界面上直接打开，每次更改都可以直接在浏览器界面上看到
-h1：几级文本最多到h6，越大字号越小
-超链接：
-&lt;a href=&quot;https://www.bilibili.com/video/BV1T3L8zHEv9/?spm_id_from=333.337.search-card.all.click&amp;vd_source=c8b6bd5484754efc4b0d75eaca45bc29&quot; target=&quot;_blank&quot;&gt;中二电波台紧急报道赛马娘大卖8万8（这里放文本）&lt;/a&gt;&lt;a href=&quot;超链接地址&quot;&gt;超链接内容&lt;/a&gt;_blank:新窗口 _self:本窗口
-换行：
-&lt;br&gt;
-段落
-&lt;p&gt;文字&lt;p&gt;
-加粗
-&lt;b&gt;央视网&lt;b&gt;&lt;stong&gt;央视网&lt;/stong&gt;    
-行高和段间距
-p &#123;     /* 设置行高 */     line-height: 2; /* 行高: 2倍行高 */          /* 设置首行缩进 */     text-indent: 2em; /* 首行缩进2个字符 */   &#125;
-三种线
-&lt;u&gt; 下划线&lt;i&gt; 倾斜&lt;s&gt; 删除线
-字符实体
-&amp;ndsp：no breaking space 空格&amp;lt：&lt;&amp;gt:&gt;
-css设置颜色
-方法一：行内样式 
-&lt;span style=&quot;color: brown;&quot;&gt;2024年05月15日 20:07&lt;/span&gt;
-方法二：内部样式
-span&#123;color: gray;&#125;&lt;/style&gt;
-这段定义了一个css代码，只在当前页面生效，这段 CSS 代码的作用是将所有&lt;span&gt;标签的文字颜色设置为灰色
-方法三：外部样式
-&lt;link rel=&quot;stylesheet&quot; href=&quot;css/news.css&quot;&gt;
-stylesheet：层叠样式表 href=要引入的什么文件
-span&#123;color: gray;&#125;
-定义了css文件在news.css文件中，需要就直接引用
-
-知道颜色—-&gt;截图工具去看
-css选择器
-* 元素选择器  匹配页面中所有该类型的标签     span &#123;      color: #b2b2b2;    &#125; 	类选择器 作用：通过元素的 class 属性值匹配元素语法：以 . 开头，后跟类名     .cls &#123;      color: #ff0000;    &#125; 	/* ID选择器 */唯一（一个 ID 只能对应一个元素）    #time &#123;      color: #b2b2b2;    &#125;&lt;span class=&quot;cls&quot; id=&quot;time&quot;&gt;2024年05月15日 20:07&lt;/span&gt;.navbar h1 &#123;&#125;&lt;div class=&quot;navbar&quot;&gt;        &lt;h1&gt;Tlias智能学习辅助系统&lt;/h1&gt;后代选择器选择的是navbar下面的h1
-优先级：id&gt;类&gt;元素
-超链接下方去除下划线
-a &#123;      /* 去除超链接下方的下划线 */      text-decoration: none;    &#125;    &lt;a href=&quot;https://www.cctv.com&quot; target=&quot;_blank&quot;&gt;央视网&lt;/a&gt; 
-引入媒体
-alt+p快捷键：ai快捷生成内容
-&lt;video src=&quot;video/news.mp4&quot; controls autoplay width=&quot;80%&quot;&gt;&lt;/video&gt;video标签属性src：视频地址controls：显示播放控件,进度条啊暂停那些的autoplay：自动播放width：视频宽度height：视频高度（建议只设置一个就够了另一个会等比列缩放）单位：px像素%：百分比（意思是相当于父元素的百分比）例如我的视频放在body区域，%就是80%的body区域&lt;audio src=&quot;audio/news.mp3&quot; controls &gt;&lt;/audio&gt;引入音频&lt;img src=&quot;img/1.gif&quot; width=&quot;80%&quot;&gt;&lt;/img&gt;src:图片访问地址：1.绝对磁盘路径（不推荐）				2.绝对网络路径				3.相对路径					3.1 ./：当前目录（可以省略），如：./img/1.gif					3.2 ../:上一级目录					同样的也有宽度高度
-整体版面居中显示 
-#content-container &#123; width: 70%; /* 宽度: 70% */ margin: 0 auto;    margin——外边距&#125;
-改变字体
-font-family: &quot;楷体&quot;;
-
-
-&lt;style&gt;    #div1 &#123;      width: 400px; /* 宽度: 400像素; 默认是内容展示区域的宽度 */      height: 300px; /* 高度: 300像素; 默认是内容展示区域的高度 */      background-color: #ffff00;      padding: 30px; /* 内边距: 30像素 */      box-sizing: border-box;       border: 20px solid #ff00ff; /* 边框: 20像素 */      margin: 30px auto; /* 外边距: 20像素 */       auto居中显示    &#125;  &lt;/style&gt;
-flex布局
-flex是flexible Box的缩写，意为”弹性布局”，是一种一维的布局模型。flex布局可以为元素之间提供强大的空间分布和对齐能力
-通过给父容器添加flex的相关属性，来控制子元素的位置和排列方式
-display: flex; /* flex弹性布局 */      flex-direction: row; /* 默认为row水平布局, 设置主轴 */      /* flex-start: 从头开始排列 */      /* flex-end: 从尾部开始排列 */      /* center: 在主轴上居中对齐 */      /* space-around: 平分剩余空间 */      /* space-between: 先两边贴边, 再平分剩余空间 */      justify-content: space-between; 
-表单
-主要负责数据采集，什么登录验证这类东西
-表单项：不同类型的input元素、下拉列表、文本域等。
-&lt;input&gt;：定义表单项，通过type属性控制输入形式（text/password/...）&lt;select&gt;：定义下拉列表(就是那个往下拉，选地域的那种)&lt;textarea&gt;：定义文本域（大的输入框）属性action：规定当提交表单时向何处发送表单数据，URL表单数据提交的url地址method：规定用于发送表单数据的方式。GET、POST表单的提交方式
-&lt;form action=&quot;/save&quot; method=&quot;get&quot;&gt;  姓名：&lt;input type=&quot;text&quot; name=&quot;name&quot;&gt;  年龄：&lt;input type=&quot;text&quot; name=&quot;age&quot;&gt;  &lt;form&gt;注意：表单项要想采集数据必须得设置name属性，表示表单项的名字method：提交方式get：默认，表单数据会出现在url后面，形式：/save?name=Tom&amp;age=18特点：1．如果表单中包含了隐私数据，get方式并不安全，不推荐使用该方式.2.在浏览器中get请求的大小是有限制的，不适合提交大数据量的表单，post：表单数据会在消息体/请求体中提交到服务器特点：1.安全，请求大小没有限制
-
-
-&lt;form action=&quot;/save&quot; method=&quot;post&quot;&gt;     姓名: &lt;input type=&quot;text&quot; name=&quot;name&quot;&gt; &lt;br&gt;&lt;br&gt;     密码: &lt;input type=&quot;password&quot; name=&quot;password&quot;&gt; &lt;br&gt;&lt;br&gt; 隐藏了输入的东西     性别: &lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;1&quot;&gt; 男          &lt;label&gt;&lt;input type=&quot;radio&quot; name=&quot;gender&quot; value=&quot;2&quot;&gt; 女 label标签：提示用户体验，点击女的文字也可以勾选如果属于同一组的，那么name的名字必须要一样的才能选择，value表示提交给后端1值&lt;/label&gt; &lt;br&gt;&lt;br&gt;          爱好: &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;java&quot;&gt; java &lt;/label&gt;          &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;game&quot;&gt; game &lt;/label&gt;          &lt;label&gt;&lt;input type=&quot;checkbox&quot; name=&quot;hobby&quot; value=&quot;sing&quot;&gt; sing &lt;/label&gt; &lt;br&gt;&lt;br&gt;     checkbox：方框     图像: &lt;input type=&quot;file&quot; name=&quot;image&quot;&gt;  &lt;br&gt;&lt;br&gt;file：文件上传表达项     生日: &lt;input type=&quot;date&quot; name=&quot;birthday&quot;&gt; &lt;br&gt;&lt;br&gt;     时间: &lt;input type=&quot;time&quot; name=&quot;time&quot;&gt; &lt;br&gt;&lt;br&gt;     日期时间: &lt;input type=&quot;datetime-local&quot; name=&quot;datetime&quot;&gt; &lt;br&gt;&lt;br&gt;     学历: &lt;select name=&quot;degree&quot;&gt;               &lt;option value=&quot;&quot;&gt;----------- 请选择 -----------&lt;/option&gt;               &lt;option value=&quot;1&quot;&gt;大专&lt;/option&gt;               &lt;option value=&quot;2&quot;&gt;本科&lt;/option&gt;               &lt;option value=&quot;3&quot;&gt;硕士&lt;/option&gt;               &lt;option value=&quot;4&quot;&gt;博士&lt;/option&gt;          &lt;/select&gt;  &lt;br&gt;&lt;br&gt;     描述: &lt;textarea name=&quot;description&quot; cols=&quot;30&quot; rows=&quot;10&quot;&gt;&lt;/textarea&gt;  &lt;br&gt;&lt;br&gt;     cols：表示能输入多少个字符，rows：几行     &lt;input type=&quot;hidden&quot; name=&quot;id&quot; value=&quot;1&quot;&gt;     &lt;!-- 表单常见按钮 --&gt;     &lt;input type=&quot;button&quot; value=&quot;按钮&quot;&gt;	button要js语言才能交互     &lt;input type=&quot;reset&quot; value=&quot;重置&quot;&gt;reset重置按钮     &lt;input type=&quot;submit&quot; value=&quot;提交&quot;&gt;        &lt;br&gt;&lt;/form&gt;
-搜索表单
-&lt;form class=&quot;search-form&quot; action=&quot;/search&quot; method=&quot;post&quot;&gt;        &lt;label for=&quot;name&quot;&gt;姓名：&lt;/label&gt;        &lt;input type=&quot;text&quot; id=&quot;name&quot; name=&quot;name&quot; placeholder=&quot;请输入姓名&quot;&gt;label的这个name和id是绑定的，效果是用户点一下姓名光标就会聚焦到输入框        &lt;label for=&quot;gender&quot;&gt;性别：&lt;/label&gt;        &lt;select id=&quot;gender&quot; name=&quot;gender&quot;&gt;            &lt;option value=&quot;&quot;&gt;&lt;/option&gt;            &lt;option value=&quot;1&quot;&gt;男&lt;/option&gt;            &lt;option value=&quot;2&quot;&gt;女&lt;/option&gt;        &lt;/select&gt;        &lt;label for=&quot;position&quot;&gt;职位：&lt;/label&gt;        &lt;select id=&quot;position&quot; name=&quot;position&quot;&gt;            &lt;option value=&quot;&quot;&gt;&lt;/option&gt;            &lt;option value=&quot;1&quot;&gt;班主任&lt;/option&gt;            &lt;option value=&quot;2&quot;&gt;讲师&lt;/option&gt;            &lt;option value=&quot;3&quot;&gt;学工主管&lt;/option&gt;            &lt;option value=&quot;4&quot;&gt;教研主管&lt;/option&gt;            &lt;option value=&quot;5&quot;&gt;咨询师&lt;/option&gt;        &lt;/select&gt;        &lt;button type=&quot;submit&quot;&gt;查询&lt;/button&gt;        &lt;button type=&quot;reset&quot;&gt;清空&lt;/button&gt;    &lt;/form&gt;
-表格展示区域
-
-&lt;table&gt;        &lt;!-- 表头 --&gt;        &lt;thead&gt;            &lt;tr&gt; 一个tr一行 一个th或td一个单元格 th不加粗                &lt;th&gt;姓名&lt;/th&gt;  th可以加粗文字多用在标题上                &lt;th&gt;性别&lt;/th&gt;                &lt;th&gt;头像&lt;/th&gt;                &lt;th&gt;职位&lt;/th&gt;                &lt;th&gt;入职日期&lt;/th&gt;                &lt;th&gt;最后操作时间&lt;/th&gt;                &lt;th&gt;操作&lt;/th&gt;            &lt;/tr&gt;        &lt;/thead&gt;&lt;td class=&quot;action-buttons&quot;&gt;                    &lt;button type=&quot;button&quot;&gt;编辑&lt;/button&gt;                    &lt;button type=&quot;button&quot;&gt;删除&lt;/button&gt;                &lt;/td&gt;
-JavaScript内部脚本：将js代码定义在html页面上
-JavaScript代码必须位于标签之间在HTML文档中，可以在任意地方，放置任意数量的一般会把脚本置于元素的底部，可改善显示速度
-&lt;title&gt;JS 引入方式&lt;/title&gt;
-外部：将js代码定义在外部js文件中，然后引入到html页面中
-
-例子：
-在js目录下，定义一个js文件demo.js，在文件中编写js代码，如下：
-
-
-
-alert(&#x27;Hello JS&#x27;)
-
-在html文件中，通过引入js文件demo.js，如下：
-&lt;script src=&quot;js/demo.js&quot;&gt;&lt;/script&gt;
-
-注意1：demo.js中只有js代码，没有标签
-
-注意2：通过标签引入外部JS文件时，标签不能自闭合，如：
-
-JS书写规范：
-
-结束符：每行js代码，结尾以分号结尾，而结尾的分号可有可无。（建议在一个项目中保持一致，要么全部都加，要么全部都不加）
-
-
-
-js输出语句
-&lt;script&gt;        //方式一: 写入浏览器的body区域        document.write(&quot;Hello JS (document.write)&quot;);		 //方式二: 弹出框        window.alert(&quot;Hello JS (window.alert)&quot;);		 //方式三: 控制台F12        console.log(&quot;Hello JS (console.log)&quot;)&lt;/script&gt;
-js变量 
-
-JS是一门弱类型语言，变量是可以存放不同类型的值的。
-
-&lt;script&gt;    //变量    let a = 20;//用let来声明变量    a = &quot;Hello&quot;;    alert(a);    //最后显示的是“Hello”&lt;/script&gt;
-var声明的变量不严谨，不常用
-常量
-&lt;body&gt;&lt;script&gt;        //常量        const PI = 3.14;        PI = 3.15;        alert(PI);    &lt;/script&gt;&lt;/body&gt;会报错，常量不可以被重新分配值
-常量不可以被重新分配值
-数据类型
-&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;JS-数据类型&lt;/title&gt;&lt;/head&gt;&lt;body&gt;    &lt;script&gt;        //原始数据类型        alert(typeof 3); //number        alert(typeof 3.14); //number        alert(typeof &quot;A&quot;); //string        alert(typeof &#x27;Hello&#x27;);//string        alert(typeof true); //boolean        alert(typeof false);//boolean        alert(typeof null); //object         var a ;        alert(typeof a); //undefined//当声明变量未初始化，默认值是underfined    &lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
-反引号 （``）。 而使用反引号引起来的字符串，也称为 模板字符串。
-英文输入模式下键盘 tab 键上方波浪线 ~ 那个键：``
-
-内容拼接时，使用 ${ } 来引用变量
-
-  &lt;script&gt;    let name = &#x27;Tom&#x27;;    let age = 18;console.log(&#x27;大家好, 我是新入职的&#x27; + name + &#x27;, 今年&#x27; + age + &#x27;岁了, 请多多关照&#x27;); //原始方式 , 手动拼接字符串    console.log(`大家好, 我是新入职的$&#123;name&#125;, 今年$&#123;age&#125;岁了, 请多多关照`); //使用模板字符串方式拼接字符串,中间用逗号隔开  &lt;/script&gt;
-函数
-function add(a, b)&#123;    return a + b;&#125;let result = add(10,20);alert(result);输出30var result = add(10,20,30,40);alert(result);还是输出30在JavaScript中，函数的调用只需要名称正确即可，参数列表不管的。如上述案例，10传递给了变量a，20传递给了变量b，而30和40没有变量接受，但是不影响函数的正常调用。
-
-形参不需要声明类型，并且JS中不管什么类型都是let去声明，加上也没有意义。
-返回值也不需要声明类型，直接return即可
-
-匿名函数
-一种没有名称的函数，由于它们没有名称，因此无法直接通过函数名来调用，而是通过变量或表达式来调用。
-表达式：
-var add = function (a,b)&#123;    return a + b;&#125;
-箭头函数
-var add = (a,b) =&gt; &#123;    return a + b;&#125;
-箭头函数这种形式，在现在的前端开发中用的会更多一些
-自定义对象
-&lt;script&gt;    //自定义对象    let user = &#123;        name: &quot;Tom&quot;,        age: 10,        gender: &quot;男&quot;,        sing: function()&#123;//：function可以省略             console.log(&quot;悠悠的唱着最炫的民族风~&quot;);         &#125;    &#125;    console.log(user.name);    user.sing();&lt;script&gt;
-定义方法的时候不要使用箭头函数不然使用this会有问题
-this并不指向当前对象，指向的是当前对象的父级
-JSONJSON是通过JavaScript标记法书写的文本本质字符串。由于语法简单，层级结构鲜明，现多用于作为数据载体，在网络中进行数据传输  其格式如下：
-&#123;    &quot;key&quot;:value,    &quot;key&quot;:value,    &quot;key&quot;:value&#125;key必须使用引号并且是双引号标记，value可以是任意数据类型
-//3. JSON - JS对象标记法let person = &#123;  name: &#x27;itcast&#x27;,  age: 18,  gender: &#x27;男&#x27;&#125;alert(JSON.stringify(person)); //js对象 --&gt; json字符串//JSON.parse(...)：作用就是将json格式的字符串，转为js对象。let personJson = &#x27;&#123;&quot;name&quot;: &quot;heima&quot;, &quot;age&quot;: 18&#125;&#x27;;alert(JSON.parse(personJson).name);
-DOM
-Document Object Model 文档对象模型。也就是 JavaScript 将 HTML 文档的各个组成部分封装为对象。将网页的内容当做对象来处理，标签的所有属性在该对象上都可以找到，并且修改这个对象的属性，就会自动映射到标签身上
-主要作用如下：
-
-改变 HTML 元素的内容
-改变 HTML 元素的样式（CSS）
-对 HTML DOM 事件作出反应
-添加和删除 HTML 元素
-
-获取：根据CSS选择器来获取DOM元素，获取到匹配到的第一个元素：document.querySelector(&#39;``CSS选择器``&#39;);
-根据CSS选择器来获取DOM元素，获取匹配到的所有元素：document.querySelectorAll(&#39;CSS选择器&#39;); 选择整个标签
-注意：获取到的所有元素，会封装到一个NodeList节点集合中，是一个伪数组（有长度、有索引的数组，但没有push、pop等数组方法）
-&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;  &lt;meta charset=&quot;UTF-8&quot;&gt;  &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;  &lt;title&gt;JS-DOM&lt;/title&gt;&lt;/head&gt;&lt;body&gt;  &lt;h1 id=&quot;title1&quot;&gt;11111&lt;/h1&gt;  &lt;h1&gt;22222&lt;/h1&gt;  &lt;h1&gt;33333&lt;/h1&gt;  &lt;script&gt;    //1. 修改第一个h1标签中的文本内容    //1.1 获取DOM对象    // let h1 = document.querySelector(&#x27;#title1&#x27;);    //let h1 = document.querySelector(&#x27;h1&#x27;); // 获取第一个h1标签    let hs = document.querySelectorAll(&#x27;h1&#x27;);    //1.2 调用DOM对象中属性或方法    hs[0].innerHTML = &#x27;修改后的文本内容&#x27;;  &lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
-js事件监听事件源.addEventListener(&#x27;事件类型&#x27;, 要执行的函数);注意括号要闭合
-&lt;!DOCTYPE html&gt;&lt;html lang=&quot;en&quot;&gt;&lt;head&gt;    &lt;meta charset=&quot;UTF-8&quot;&gt;    &lt;meta http-equiv=&quot;X-UA-Compatible&quot; content=&quot;IE=edge&quot;&gt;    &lt;meta name=&quot;viewport&quot; content=&quot;width=device-width, initial-scale=1.0&quot;&gt;    &lt;title&gt;JS-事件-事件绑定&lt;/title&gt;&lt;/head&gt;&lt;body&gt;    &lt;input type=&quot;button&quot; id=&quot;btn1&quot; value=&quot;点我一下试试1&quot;&gt;    &lt;input type=&quot;button&quot; id=&quot;btn2&quot; value=&quot;点我一下试试2&quot;&gt;            &lt;script&gt;        document.querySelector(&quot;#btn1&quot;).addEventListener(&#x27;click&#x27;, ()=&gt;&#123;            alert(&quot;按钮1被点击了...&quot;);        &#125;)//注意最后的括号    &lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
-
-on方式会被覆盖，addEventListener 方式可以绑定多次，拥有更多特性，推荐使用 addEventListener . 
-
-常见事件
-&lt;script&gt;        //click: 鼠标点击事件        document.querySelector(&#x27;#b2&#x27;).addEventListener(&#x27;click&#x27;, () =&gt; &#123;            console.log(&quot;我被点击了...&quot;);        &#125;)                //mouseenter: 鼠标移入        document.querySelector(&#x27;#last&#x27;).addEventListener(&#x27;mouseenter&#x27;, () =&gt; &#123;            console.log(&quot;鼠标移入了...&quot;);        &#125;)        //mouseleave: 鼠标移出        document.querySelector(&#x27;#last&#x27;).addEventListener(&#x27;mouseleave&#x27;, () =&gt; &#123;            console.log(&quot;鼠标移出了...&quot;);        &#125;)        //keydown: 某个键盘的键被按下        document.querySelector(&#x27;#username&#x27;).addEventListener(&#x27;keydown&#x27;, () =&gt; &#123;            console.log(&quot;键盘被按下了...&quot;);        &#125;)        //keydown: 某个键盘的键被抬起        document.querySelector(&#x27;#username&#x27;).addEventListener(&#x27;keyup&#x27;, () =&gt; &#123;            console.log(&quot;键盘被抬起了...&quot;);        &#125;)        //blur: 失去焦点事件        document.querySelector(&#x27;#age&#x27;).addEventListener(&#x27;blur&#x27;, () =&gt; &#123;            console.log(&quot;失去焦点...&quot;);        &#125;)        //focus: 元素获得焦点        document.querySelector(&#x27;#age&#x27;).addEventListener(&#x27;focus&#x27;, () =&gt; &#123;            console.log(&quot;获得焦点...&quot;);        &#125;)        //input: 用户输入时触发        document.querySelector(&#x27;#age&#x27;).addEventListener(&#x27;input&#x27;, () =&gt; &#123;            console.log(&quot;用户输入时触发...&quot;);        &#125;)        //submit: 提交表单事件        document.querySelector(&#x27;form&#x27;).addEventListener(&#x27;submit&#x27;, () =&gt; &#123;            alert(&quot;表单被提交了...&quot;);        &#125;)    &lt;/script&gt;&lt;/body&gt;&lt;/html&gt;
-
-vue是一款用于构建用户界面的渐进式的JavaScript框架
-构建用户界面是指，在Vue中，可以基于数据渲染出用户看到的界面
-
-框架：就是一套完整的项目解决方案，用于快速构建项目 
-
-准备一个html文件，并在其中引入Vue模块 （参考官方文档，复制过来即可）【注意：模块化的js，引入时，需要设置 type=&quot;module&quot;】
-创建Vue程序的应用实例，控制视图的元素
-
-准备元素（div），交给Vue控制
-
-
+    <title>Hello World</title>
+    <url>/2025/10/01/hello-world/</url>
+    <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
+Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
+More info: Writing
+Run server$ hexo server
+More info: Server
+Generate static files$ hexo generate
+More info: Generating
+Deploy to remote sites$ hexo deploy
+More info: Deployment
 ]]></content>
   </entry>
   <entry>

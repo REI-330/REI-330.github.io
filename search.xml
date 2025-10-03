@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Hello World</title>
-    <url>/REI-330/REI-330.github.io.git/main/undefined/undefined.html</url>
+    <url>/undefined/undefined.html</url>
     <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
 Quick StartCreate a new post$ hexo new &quot;My New Post&quot;
 More info: Writing
@@ -16,7 +16,7 @@ More info: Deployment
   </entry>
   <entry>
     <title></title>
-    <url>/REI-330/REI-330.github.io.git/main/css/custom.css</url>
+    <url>/css/custom.css</url>
     <content><![CDATA[/* @font-face {
   font-family: Candyhome;
   src: url(https://npm.elemecdn.com/anzhiyu-blog@1.1.6/fonts/Candyhome.ttf);

@@ -15,6 +15,32 @@ More info: Deployment
 ]]></content>
   </entry>
   <entry>
+    <title>前端学习路线</title>
+    <url>/2025/10/03/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[前端学习路线努力的但丁 双非硕 小红书前端
+基础路线三件套：黑马pinkhtml+css：写完品优购，掌握flex布局，选择性学习动画部分（一个月）
+​        js：基础语法加 Dom加 BOM,js高级语法（一个月）
+ES6：B站小马哥+阮一峰文档（7天）（直接看文档写的很详细）
+Ajax：尚硅谷，重点掌握ajax发送的常用方式（2天）
+Vue3：尚硅谷张天禹（一个月）
+学完去做VUE3项目（一个月）熟悉业务逻辑和整理
+背八股文：牛客上的几十道面试题，写简历
+进阶：JS高级：B站pink（7天）（吃透）
+Promsie和axios：尚硅谷李强（10天）
+建议手写Promise，了解底层原理
+数据结构与算法：coderwhy（20天）
+React基础：coderwhy（一个月）
+typescript：coderwhy（7天）
+React项目：coderwhy的爱彼迎（15天）
+leetcode：代码随想录（60天）应付大厂面试
+以上所有笔记可以找： csdn DantingZhang
+​            
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>后端学习技术路线</title>
     <url>/2025/10/03/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</url>
     <content><![CDATA[后端技术路线学习推荐学习与效仿宁猫k：java后端 28届，B站up四非大一就找了小厂实习，后续过了滴滴支付的实习。黑马：Javase（跳过gui），javaweb(前端，刚好也是大二上这学期课程)

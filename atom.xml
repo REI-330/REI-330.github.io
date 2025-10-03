@@ -6,7 +6,7 @@
   <link href="https://rei-330.github.io/atom.xml" rel="self"/>
   
   <link href="https://rei-330.github.io/"/>
-  <updated>2025-10-03T13:52:20.314Z</updated>
+  <updated>2025-10-03T14:44:58.616Z</updated>
   <id>https://rei-330.github.io/</id>
   
   <author>
@@ -15,6 +15,29 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>前端学习路线</title>
+    <link href="https://rei-330.github.io/2025/10/03/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/"/>
+    <id>https://rei-330.github.io/2025/10/03/%E5%89%8D%E7%AB%AF%E5%AD%A6%E4%B9%A0%E8%B7%AF%E7%BA%BF/</id>
+    <published>2025-10-03T14:43:52.000Z</published>
+    <updated>2025-10-03T14:44:58.616Z</updated>
+    
+    <content type="html"><![CDATA[<h1 id="前端学习路线"><a href="#前端学习路线" class="headerlink" title="前端学习路线"></a>前端学习路线</h1><p>努力的但丁 双非硕 小红书前端</p><h3 id="基础路线"><a href="#基础路线" class="headerlink" title="基础路线"></a>基础路线</h3><p>三件套：<strong>黑马pink</strong>html+css：写完品优购，掌握flex布局，选择性学习动画部分（一个月）</p><p>​        js：基础语法加 Dom加 BOM,js高级语法（一个月）</p><p>ES6：<strong>B站小马哥+阮一峰文档</strong>（7天）（直接看文档写的很详细）</p><p>Ajax：<strong>尚硅谷</strong>，重点掌握ajax发送的常用方式（2天）</p><p>Vue3：<strong>尚硅谷张天禹</strong>（一个月）</p><p>学完去做VUE3项目（一个月）熟悉业务逻辑和整理</p><p>背八股文：牛客上的几十道面试题，写简历</p><h3 id="进阶："><a href="#进阶：" class="headerlink" title="进阶："></a>进阶：</h3><p>JS高级：B站pink（7天）（吃透）</p><p>Promsie和axios：尚硅谷李强（10天）</p><p><strong>建议手写Promise，了解底层原理</strong></p><p>数据结构与算法：coderwhy（20天）</p><p>React基础：coderwhy（一个月）</p><p>typescript：coderwhy（7天）</p><p>React项目：coderwhy的爱彼迎（15天）</p><p>leetcode：代码随想录（60天）应付大厂面试</p><p>以上所有笔记可以找： csdn DantingZhang</p><p>​            </p>]]></content>
+    
+    
+      
+      
+    <summary type="html">&lt;h1 id=&quot;前端学习路线&quot;&gt;&lt;a href=&quot;#前端学习路线&quot; class=&quot;headerlink&quot; title=&quot;前端学习路线&quot;&gt;&lt;/a&gt;前端学习路线&lt;/h1&gt;&lt;p&gt;努力的但丁 双非硕 小红书前端&lt;/p&gt;
+&lt;h3 id=&quot;基础路线&quot;&gt;&lt;a href=&quot;#基础路线&quot; clas</summary>
+      
+    
+    
+    
+    
+    <category term="技术" scheme="https://rei-330.github.io/tags/%E6%8A%80%E6%9C%AF/"/>
+    
+  </entry>
   
   <entry>
     <title>后端学习技术路线</title>

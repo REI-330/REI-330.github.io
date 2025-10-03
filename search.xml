@@ -1,20 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
-    <title>后端学习技术路线</title>
-    <url>/2025/10/03/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</url>
-    <content><![CDATA[后端技术路线学习推荐学习与效仿宁猫k：java后端 28届，B站up四非大一就找了小厂实习，后续过了滴滴支付的实习。黑马：Javase（跳过gui），javaweb(前端，刚好也是大二上这学期课程)
-精进前端：尚硅谷javaweb—-vue，ts
-项目：苍穹外卖（简单curd项目）（9-10天）
-​    黑马点评（必学）redis的高级应用(可参考小红书月如风的魔改)
-写博客：Ruyu快乐猫，算法以及面试部分：力扣top200，剑指offer
-到学完微服务为止，只花了三个月。重点是即使人家学历不高，但是人家能每日coding甚至7个小时，计算机毕业即失业的问题在于他是一门终生学习科目即使你好好学习认真上课也很难在短时间内完成技术要求，然而这也是最大的优点即技术的差距可以帮你一定程度上跨越学历的鸿沟，弯道超车。也许双非走进大厂并不是奢望。
-]]></content>
-      <tags>
-        <tag>技术</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Hello World</title>
     <url>/2025/10/01/hello-world/</url>
     <content><![CDATA[Welcome to Hexo! This is your very first post. Check documentation for more info. If you get any problems when using Hexo, you can find the answer in troubleshooting or you can ask me on GitHub.
@@ -27,6 +13,20 @@ More info: Generating
 Deploy to remote sites$ hexo deploy
 More info: Deployment
 ]]></content>
+  </entry>
+  <entry>
+    <title>后端学习技术路线</title>
+    <url>/2025/10/03/%E5%90%8E%E7%AB%AF%E5%AD%A6%E4%B9%A0%E6%8A%80%E6%9C%AF%E8%B7%AF%E7%BA%BF/</url>
+    <content><![CDATA[后端技术路线学习推荐学习与效仿宁猫k：java后端 28届，B站up四非大一就找了小厂实习，后续过了滴滴支付的实习。黑马：Javase（跳过gui），javaweb(前端，刚好也是大二上这学期课程)
+精进前端：尚硅谷javaweb—-vue，ts
+项目：苍穹外卖（简单curd项目）（9-10天）
+​    黑马点评（必学）redis的高级应用(可参考小红书月如风的魔改)
+写博客：Ruyu快乐猫，算法以及面试部分：力扣top200，剑指offer
+到学完微服务为止，只花了三个月。重点是即使人家学历不高，但是人家能每日coding甚至7个小时，计算机毕业即失业的问题在于他是一门终生学习科目即使你好好学习认真上课也很难在短时间内完成技术要求，然而这也是最大的优点即技术的差距可以帮你一定程度上跨越学历的鸿沟，弯道超车。也许双非走进大厂并不是奢望。
+]]></content>
+      <tags>
+        <tag>技术</tag>
+      </tags>
   </entry>
   <entry>
     <title></title>

@@ -3,11 +3,11 @@
   <title>Rei</title>
   
   <subtitle>如果我也能做到的话，那么会激励更多人的</subtitle>
-  <link href="http://example.com/atom.xml" rel="self"/>
+  <link href="https://github.com/REI-330/REI-330.github.io.git/main/atom.xml" rel="self"/>
   
-  <link href="http://example.com/"/>
+  <link href="https://github.com/REI-330/REI-330.github.io.git/main/"/>
   <updated>2025-10-01T08:13:14.570Z</updated>
-  <id>http://example.com/</id>
+  <id>https://github.com/REI-330/REI-330.github.io.git/main/</id>
   
   <author>
     <name>Rei</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Hello World</title>
-    <link href="http://example.com/undefined/undefined.html"/>
-    <id>http://example.com/undefined/undefined.html</id>
+    <link href="https://github.com/REI-330/REI-330.github.io.git/main/undefined/undefined.html"/>
+    <id>https://github.com/REI-330/REI-330.github.io.git/main/undefined/undefined.html</id>
     <published>2025-10-01T08:13:14.570Z</published>
     <updated>2025-10-01T08:13:14.570Z</updated>
     
